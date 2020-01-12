@@ -1,0 +1,28 @@
+Imprimir na tela informações de um produto 
+
+Produto - Leite Integral piracanjuba 1L - okay
+
+código de barras - 7898080640017 - okay
+
+Preço de custo - R$ 2,00 - okay
+
+Preço de venda - venda por % de lucro - okay
+
+Grupo - Laticínios - okay
+
+vendido por:unidade - okay
+
+Lucro - (preço de venda - preço de custo) - okay
+
+Data de fabricacao - 12/12/2019 - okay
+
+Data de validade - 12/02/2020 - okay
+
+produto vencido - ?
+
+código NCM do produto - 04011010 - okay
+
+código CSOSN da operação - 102 - okay
+
+código CFOP da operação - 5102 - okay
+
