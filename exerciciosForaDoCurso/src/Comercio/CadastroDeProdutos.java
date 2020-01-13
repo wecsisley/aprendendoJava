@@ -11,7 +11,7 @@ public class CadastroDeProdutos {
 	    double precoDeCusto = 2.50;
 	    double precoDeVenda = precoDeCusto *2 ;
 	    double lucro = precoDeVenda - precoDeCusto;
-	    var grupo = "Laticínios";
+	    var grupo = "Laticï¿½nios";
 	    var vendidoPor = "unidade";
 	    var dataDeFabricacao = "12/12/2019";
 	    var dataDeVencimento = "12/02/2020";	    
@@ -22,10 +22,12 @@ public class CadastroDeProdutos {
 	    var csosn = 102;
 	    var cfop = 5102;
 	    
-	    System.out.printf("\nProduto: %s \n\nCódigo de barras: %d \n\nPreço de Custo: R$ %.2f", 
+		System.out.printf("PromoÃ§Ã£o, tudo com 50% de desconto!!!")
+
+	    System.out.printf("\nProduto: %s \n\nCï¿½digo de barras: %d \n\nPreï¿½o de Custo: R$ %.2f", 
 	    		produto, codigoDeBarras, precoDeCusto);
 	    
-	    System.out.printf("\n\nPreço de Venda: R$%.2f \n", precoDeVenda );
+	    System.out.printf("\n\nPreï¿½o de Venda: R$%.2f \n", precoDeVenda );
 	    
 	    System.out.printf("\nGrupo do produto: %s \n\nVendido por: %s \n\n",
 	    		grupo, vendidoPor);
@@ -37,7 +39,7 @@ public class CadastroDeProdutos {
 	    
 	    System.out.println("Produto Vencido ? - " + date1.isAfter(date2));
 	    
-	    System.out.printf("\nCódigo NCM do produto: %d \n\nCódigo CSOSN da opereação: %d \n\nCódigo CFOP da operação: %d",
+	    System.out.printf("\nCï¿½digo NCM do produto: %d \n\nCï¿½digo CSOSN da opereaï¿½ï¿½o: %d \n\nCï¿½digo CFOP da operaï¿½ï¿½o: %d",
 	    		ncm, csosn, cfop); 
 	}
 
