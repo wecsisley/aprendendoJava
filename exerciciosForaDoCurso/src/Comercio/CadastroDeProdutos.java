@@ -1,11 +1,12 @@
 package Comercio;
 
 public class CadastroDeProdutos {
+	
 	public static void main(String[] args) {
 		
 		var produto = "Leite Integral Piracanjuba 1L";
 	    long codigoDeBarras = 7898080640017L; 
-	    double precoDeCusto = 2.00;
+	    double precoDeCusto = 2.50;
 	    double precoDeVenda = precoDeCusto *2 ;
 	    double lucro = precoDeVenda - precoDeCusto;
 	    var grupo = "Laticínios";
@@ -33,7 +34,7 @@ public class CadastroDeProdutos {
 	    System.out.println("Produto Vencido ? - " + verificacaoDeVencimento );
 	    
 	    System.out.printf("\nCódigo NCM do produto: %d \n\nCódigo CSOSN da opereação: %d \n\nCódigo CFOP da operação: %d",
-	    		ncm, csosn, cfop);
+	    		ncm, csosn, cfop); 
 	}
 
 }
