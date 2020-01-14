@@ -21,10 +21,10 @@ public class CadastroDeProdutosNovo {
 		double valorPrecoDeVenda = Double.parseDouble(precoDeVenda);
 		
 		double lucro = valorPrecoDeVenda - valorPrecoDeCusto;
-		System.out.println("Lucro do produto: R$ "+ lucro); // colocar mais 1 casa decimal
+		System.out.printf("Lucro do produto: R$ "+ lucro + 0); // colocar mais 1 casa decimal
 		
 		String grupo = JOptionPane.showInputDialog("Grupo do produto:");
-		System.out.println("Grupo do produto: " + grupo);
+		System.out.println("\nGrupo do produto: " + grupo);
 		
 		String dataDeFabricacao = JOptionPane.showInputDialog("Data de fabricação: ");
 		System.out.println("Data de fabricação: " + dataDeFabricacao);
