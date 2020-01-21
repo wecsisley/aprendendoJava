@@ -1,4 +1,4 @@
-package operadores;
+package operadores.Desafios;
 
 import java.util.Scanner;
 
